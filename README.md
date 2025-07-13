@@ -2,6 +2,9 @@
 
 The R scripts in this repository are for assisting with setting up the proper environment of tools for running Maypop Labs R projects. For most use cases, `setup_environment.R` is the only script you need, and you will only need to run it once. During the execution of `setup_environment.R` the process may pause multiple time to ask if you want to update other packages. In general, you will want to update them all anytime you are asked. You may also repeatedly receive a system popup window asking you to approve a process. It may initially appear minimized, or behind other windows, so look for it if progress of `setup_environment.R` mysteriously stalls.
 
+
+## Troubleshooting
+
 If your system does not already have **RTools** installed, you might need to install **RTools** before you run `setup_environment.R`.  
 
 1. First, find the **RTools** version that is appropriate for your version of R. You can download **RTools** [here](https://cran.r-project.org/bin/windows/Rtools/).
