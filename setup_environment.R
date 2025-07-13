@@ -39,6 +39,8 @@ renviron_path <- paste0(user_dir, ".Renviron")
 renviron_line <- paste0('R_LIBS_USER="', lib_path, '"')
 rprofile_path <- paste0(user_dir, ".Rprofile")
 
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
 # --- Create a .Renviron file ---
 dir.create(lib_path, recursive = TRUE, showWarnings = FALSE)
 writeLines(renviron_line, renviron_path)
