@@ -4,6 +4,8 @@
 # Exports a text file containing all installed packages.
 # =============================================================================
 
+options(warn = -1)
+
 # --- Functions ---
 
 script_path <- function() {
