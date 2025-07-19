@@ -57,6 +57,7 @@ devtools
 diffobj
 digest
 doParallel
+doParallel
 dotCall64
 downlit
 dplyr
