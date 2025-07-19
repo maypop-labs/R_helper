@@ -58,6 +58,7 @@ diffobj
 digest
 doParallel
 doParallel
+doRNG
 dotCall64
 downlit
 dplyr
