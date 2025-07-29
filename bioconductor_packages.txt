@@ -4,7 +4,9 @@ celldex
 ComplexHeatmap
 DelayedArray
 DelayedMatrixStats
+DESeq2
 DT
+edgeR
 limma
 lme4
 NMF

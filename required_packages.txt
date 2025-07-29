@@ -137,6 +137,7 @@ irlba
 ismev
 isoband
 iterators
+janitor
 jquerylib
 jsonlite
 jsonvalidate
@@ -153,6 +154,7 @@ leidenbase
 lifecycle
 listenv
 lme4
+lmerTest
 lmtest
 locfit
 lubridate
